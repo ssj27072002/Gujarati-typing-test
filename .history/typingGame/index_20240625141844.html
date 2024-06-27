@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gujarati Typing Test</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="lesson-section">
+        <div class="header">
+            <h1>Deep Computer Education</h1>
+            <h2>Gujarati Typing Test Practice</h2>
+        </div>
+        <div class="lessons">
+            <div class="lesson-card" onclick="selectLesson(1)">Lesson 1: ક ખ ગ</div>
+            <div class="lesson-card" onclick="selectLesson(2)">Lesson 2: Barakhadi</div>
+            <div class="lesson-card" onclick="selectLesson(3)">Lesson 3: Simple Sentences</div>
+            <div class="lesson-card" onclick="selectLesson(4)">Lesson 4: Tongue Twisters</div>
+            <div class="lesson-card" onclick="selectLesson(5)">Lesson 5: Paragraphs</div>
+            <!-- Add more lessons here -->
+        </div>
+        <div id="lessonOptions" class="lesson-options">
+            <label for="repeatTimes">Repeat Times:</label>
+            <input type="number" id="repeatTimes" value="1" min="1">
+            <button onclick="startTyping()">Start</button>
+        </div>
+    </div>
+
+    <div class="typing-section">
+        <div class="header">
+            <h1>Deep Computer Education</h1>
+            <h2>Gujarati Typing Test Practice</h2>
+            <div class="timer" id="show-time"></div>
+        </div>
+        <div id="showSentence" class="scrollable-paragraph"></div>
+        <div id="coloredText" class="styled-textarea"></div>
+        <textarea id="textarea" class="styled-textarea" disabled></textarea>
+        <button id="btn" class="styled-button" onclick="toggleTest()">Start</button>
+        <div id="score"></div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

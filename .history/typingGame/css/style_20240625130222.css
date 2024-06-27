@@ -1,0 +1,97 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.lesson-section, .typing-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.lessons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.lesson-card {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+}
+
+.lesson-card:hover {
+    background-color: #0056b3;
+}
+
+.styled-textarea {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 1.2em;
+}
+
+.styled-button {
+    margin-top: 10px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.styled-button:disabled {
+    background-color: #aaa;
+}
+
+.error {
+    color: red;
+}
+
+.timer {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.scrollable-paragraph {
+    max-height: 150px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#coloredText {
+    display: flex;
+    flex-wrap: wrap;
+}

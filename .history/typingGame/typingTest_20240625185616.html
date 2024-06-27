@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gujarati Typing Test</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="typing-section">
+        <div class="header">
+            <h1>Deep Computer Education</h1>
+            <h2>Gujarati Typing Test Practice</h2>
+            <div class="timer" id="show-time"></div>
+        </div>
+        <select id="themeSelector">
+            <option value="default">Default</option>
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
+        </select>
+        
+        <textarea id="textarea1" class="styled-textarea"></textarea>
+        <textarea id="textarea2" class="styled-textarea"></textarea>
+        <textarea id="textarea3" class="styled-textarea"></textarea>
+        
+        <div id="showSentence" class="scrollable-paragraph"></div>
+        <div id="coloredText" class="styled-textarea"></div>
+        <textarea id="textarea" class="styled-textarea" disabled></textarea>
+        <button id="btn" class="styled-button">Start</button>
+        <div id="score"></div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

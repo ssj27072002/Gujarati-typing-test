@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gujarati Typing Test</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="typing-section">
+        <div class="header">
+            <h1>Deep Computer Education</h1>
+            <h2>Gujarati Typing Test Practice</h2>
+        </div>
+        <div class="timer-div">
+            <div id="show-time" class="timer">0</div>
+        </div>
+        <h3>Choose a paragraph to type:</h3>
+        <select id="paragraphSelector" class="styled-select">
+            <option value="">Select a paragraph</option>
+            <option value="1">Paragraph 1</option>
+            <option value="2">Paragraph 2</option>
+            <option value="3">Paragraph 3</option>
+        </select>
+        <h3>Type the sentence below:</h3>
+        <div id="showSentence" class="scrollable-paragraph"></div>
+        <textarea id="textarea" class="styled-textarea" disabled></textarea>
+        <button id="btn" class="styled-button">Start</button>
+        <div id="score"></div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,121 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow-y: auto; /* Allow vertical scrolling */
+}
+
+/* Typing Test Page Styles */
+.typing-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 1200px;
+    height: auto; /* Adjust to content height */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Adjust alignment */
+    overflow-y: auto; /* Ensure the whole section can scroll */
+}
+
+.header {
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.header h2 {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.timer {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#showSentence,
+#coloredText,
+.styled-textarea {
+    width: 100%;
+    min-height: 120px; /* Set a minimum height */
+    max-height: 300px; /* Set a maximum height */
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    resize: vertical; /* Allow resizing both horizontally and vertically */
+    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    box-sizing: border-box; /* Ensure padding is included in the height */
+}
+
+.styled-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.styled-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.styled-button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+.error {
+    color: #dc3545;
+}
+
+.correct {
+    color: #28a745;
+}
+
+#score {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Ensure all text areas are scrollable */
+#showSentence,
+#coloredText,
+.styled-textarea {
+    width: 100%;
+    min-height: 120px;
+    max-height: 300px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    resize: vertical;
+    overflow-y: auto;
+    overflow-x: hidden; /* Ensure no horizontal scrolling */
+    box-sizing: border-box;
+}

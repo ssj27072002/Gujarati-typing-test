@@ -1,0 +1,61 @@
+/* Update the styling for text areas */
+.styled-textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    resize: none;
+    overflow-y: auto;
+}
+
+/* Adjust the styling for the colored text display */
+#coloredText {
+    height: 160px; /* Adjusted height */
+    overflow-y: auto;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    text-align: left;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f8f9fa;
+}
+
+/* Adjust the styling for the sentence display */
+#showSentence {
+    height: 160px; /* Adjusted height */
+    overflow-y: auto;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f8f9fa;
+}
+
+/* Update the button styling */
+.styled-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.styled-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.styled-button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}

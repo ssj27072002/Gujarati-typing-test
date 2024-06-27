@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Test with Repeat Lesson Feature</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Test</h1>
+        <div id="lessonSelector">
+            <label for="lesson">Select a Lesson:</label>
+            <select id="lesson">
+                <option value="1">Lesson 1</option>
+                <option value="2">Lesson 2</option>
+                <option value="3">Lesson 3</option>
+            </select>
+            <input id="repeatInput" type="number" min="1" value="1">
+            <button id="btn">Start</button>
+        </div>
+        <div id="typingContainer">
+            <p id="showSentence"></p>
+            <div id="coloredText"></div>
+            <textarea id="textarea" disabled></textarea>
+            <p id="score"></p>
+            <p id="show-time">Time: <span id="timer"></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
